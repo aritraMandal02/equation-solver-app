@@ -92,16 +92,16 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "Maintain the 'ax+by=c' format", Toast.LENGTH_SHORT).show();
         }
         else if(flagX > 1 || flagY > 1 || flagX2 > 1 || flagY2 > 1){
-            Toast.makeText(this, "Please maintain the 'ax+by=c' format3", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Please maintain the 'ax+by=c' format", Toast.LENGTH_SHORT).show();
         }
         else if(strText1.isEmpty() || strText2.isEmpty()){
             Toast.makeText(this, "Please enter all the equations", Toast.LENGTH_SHORT).show();
         }
         else if(!(((indexX) <= indexY+1) && (indexY < indexEqual))){
-            Toast.makeText(this, "Please maintain the 'ax+by=c' format1", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Please maintain the 'ax+by=c' format", Toast.LENGTH_SHORT).show();
         }
         else if(!((indexX2 <= indexY2+1) && (indexY2 < indexEqual2))){
-            Toast.makeText(this, "Please maintain the 'ax+by=c' format2", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Please maintain the 'ax+by=c' format", Toast.LENGTH_SHORT).show();
         }
 
         else{
