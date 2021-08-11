@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
         else if(strText1.isEmpty() || strText2.isEmpty()){
             Toast.makeText(this, "Please enter all the equations", Toast.LENGTH_SHORT).show();
         }
-        else if(!(((indexX+1) <= indexY+1) && (indexY < indexEqual))){
+        else if(!(((indexX) <= indexY+1) && (indexY < indexEqual))){
             Toast.makeText(this, "Please maintain the 'ax+by=c' format1", Toast.LENGTH_SHORT).show();
         }
         else if(!((indexX2 <= indexY2+1) && (indexY2 < indexEqual2))){
