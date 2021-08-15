@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
         String strText3 = text3.getText().toString();
 
         int check = checkWrongString(strText1, strText2, strText3);
-//        int check = 0;
         if(check == 1){
             Toast.makeText(this, "Enter all the equations", Toast.LENGTH_SHORT).show();
         }
